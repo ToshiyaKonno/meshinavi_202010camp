@@ -34,7 +34,7 @@
             </tr>
         </tbody>
     </table>
-    
+    {{-- actionタグは関係なくルーティング出来る --}}
     <a href="{{ action('RestaurantController@index') }}">戻る</a>    
 </body>
 </html>
